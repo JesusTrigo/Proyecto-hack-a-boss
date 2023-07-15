@@ -9,7 +9,7 @@ from PIL import Image
 # Página principal
 def main():
     st.title("Proyecto de Data Science")
-    image = Image.open('/app/test/test/images/hackaboss.png')
+    image = Image.open('Proyecto-final/images/hackaboss.png')
     st.image(image = image, use_column_width = True)
        
     st.markdown("""
